@@ -1,0 +1,48 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "182 cm",
+      "weight": "72 kg",
+      "goal": "Marathon endurance training with carbohydrate loading for race day preparation",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 4,000+ calories with carbohydrates comprising 60-65% of total energy intake",
+      "Includes specific hydration strategy with fluid intake recommendations throughout the day",
+      "Plan is presented in concise, single-day format with 4-5 meals/snacks clearly listed"
+    ],
+    "task_description": "Write a concise, compact 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 4,000+ daily calories with emphasis on carbohydrate loading and hydration strategy"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "85",
+      "goal": "Muscle gain and strength development for weightlifting competition",
+      "restrictions": "Lactose intolerant"
+    },
+    "solution_criteria": [
+      "Meal plan spans 24 hours with 4-5 meals distributed to support strength training",
+      "Protein distributed strategically across meals (minimum 25g per meal) with emphasis around training window",
+      "Includes specific micronutrient timing (iron, magnesium, zinc) relevant to strength athlete recovery",
+      "All meals accommodate lactose intolerance without compromising nutritional completeness"
+    ],
+    "task_description": "Write a concise, compact 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing specific protein distribution across meals and micronutrient timing around training"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "72",
+      "goal": "endurance training performance",
+      "restrictions": "vegetarian, gluten-free, nut allergy"
+    },
+    "solution_criteria": [
+      "All three dietary restrictions are accommodated throughout the meal plan",
+      "Meal plan includes adequate protein and carbohydrates to support endurance training",
+      "Plan is presented as a single day with breakfast, lunch, dinner, and snacks"
+    ],
+    "task_description": "Write a concise, compact 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete having multiple dietary restrictions (vegetarian, gluten-free, nut allergy) to verify meal plan accommodates constraints while meeting performance nutrition needs"
+  }
+]

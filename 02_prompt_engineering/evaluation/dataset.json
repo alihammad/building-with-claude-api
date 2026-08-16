@@ -1,11 +1,17 @@
 [
     {
-        "task": "Write a Python function that validates if a given string is a valid AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, hyphens only, must start and end with letter or number)"
+        "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket-name/path/to/object') and extract just the bucket name",
+        "format": "Regex",
+        "solution_criteria": "The regex should correctly extract bucket names from valid S3 URIs, handle bucket names with hyphens and numbers, and not match invalid URI formats"
     },
     {
-        "task": "Create a JSON object that represents an AWS IAM policy document allowing read-only access to a specific S3 bucket named 'my-data-bucket'"
+        "task": "Write a Python function that takes an AWS EC2 instance ID and returns True if it matches the valid AWS instance ID format (e.g., 'i-0123456789abcdef0'), False otherwise",
+        "format": "Python",
+        "solution_criteria": "The function should validate that the instance ID starts with 'i-' followed by 17 hexadecimal characters, handle edge cases like None or empty strings, and return a boolean"
     },
     {
-        "task": "Write a regular expression that matches valid AWS EC2 instance IDs (format: i- followed by 8 or 17 hexadecimal characters)"
+        "task": "Create a JSON object representing an AWS IAM policy that allows read-only access to objects in an S3 bucket named 'my-data-bucket'",
+        "format": "JSON",
+        "solution_criteria": "The policy should include proper Version and Statement fields, use 's3:GetObject' action, specify the correct resource ARN for the bucket, and be valid JSON that can be parsed"
     }
 ]
